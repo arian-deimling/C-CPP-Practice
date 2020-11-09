@@ -1,4 +1,4 @@
-#Planes
+# Planes
 <h2>By: Arian Michael Deimling</h2>
 <h2>On: 10-31-2020</h2>
 <p>This program demonstrates the creation of child processes using C Standard Library function <code>fork()</code> and communication between a parent process and its child processes using the C Standard Library function <code>kill()</code>.</p>
