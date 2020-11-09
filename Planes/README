@@ -1,5 +1,6 @@
-By: Arian Michael Deimling
-On: 10-31-2020
+<h1>Planes</h1>
+<h2>By: Arian Michael Deimling
+On: 10-31-2020</h2>
 
 Using a simple command line interface, the user of the program can
 launch planes (child processes), and send signals from the parent
