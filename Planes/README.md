@@ -1,7 +1,21 @@
-<h1>Planes</h1>
+#Planes
 <h2>By: Arian Michael Deimling</h2>
 <h2>On: 10-31-2020</h2>
-<p>This program demonstrates the creation of child processes using C Standard library function 
+<p>This program demonstrates the creation of child processes using C Standard Library function <code>fork()</code> and communication between a parent process and its child processes using the C Standard Library function <code>kill()</code>.</p>
+
+<p>Using a simple command line interface, the user of the program can launch planes (child processes), send signals to the planes, and check what child processes currently exist. The child processes gradually consume fuel and terminate once their fuel level drops to zero.
+Commands:
+  <ul>
+    <li>s - status: prints out the IDs of all live child processes (planes)</li>
+    <li>l - launch: launches a new plane (creates a new child process)</li>
+    <li>r <id>
+      
+                cout << "Commands:\n"
+                     << "s\t= status: prints out the IDs of all live planes\n"
+                     << "l\t= launch: launches a new plane\n"
+                     << "r <id>\t= refuel: refuels the plane with the specified ID\n"
+                     << "b <id>\t= bomb: drop a bomb from the plane with the specified ID\n"
+                     << "q\t= quit: quit the program\n";
 Using a simple command line interface, the user of the program can
 launch planes (child processes), and send signals from the parent
 process to make the planes refuel or bomb. The child processes 
